@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="IPL Suite for Chrome">
+    <parameter name="browser" value="chrome"/>
+
+    <test name="IPL Tests for Chrome">
+        <classes>
+            <class name ="tests.HomeTest"/>
+            <class name ="tests.TeamsTest"/>
+            <class name ="tests.PointsTest"/>
+            <class name ="tests.SearchTest"/>
+        </classes>
+    </test>
+</suite>
