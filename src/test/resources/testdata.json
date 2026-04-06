@@ -1,0 +1,19 @@
+{
+  "teams": [
+    "Chennai Super Kings",
+    "Delhi Capitals",
+    "Gujarat Titans",
+    "Kolkata Knight Riders",
+    "Lucknow Super Giants",
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru",
+    "Sunrisers Hyderabad"
+  ],
+  "topTeam": {
+    "name": "RCB",
+    "matches": 2,
+    "points": 4
+  }
+}
