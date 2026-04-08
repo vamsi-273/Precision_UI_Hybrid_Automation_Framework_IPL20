@@ -33,5 +33,7 @@ public class HomeTest extends BaseTest {
         Assert.assertFalse(homePage.getContactLinks().isEmpty(), "CONTACT section has no links");
 
         log.info("Footer validation completed successfully");
+        log.info("");
+        log.info("");
     }
 }
