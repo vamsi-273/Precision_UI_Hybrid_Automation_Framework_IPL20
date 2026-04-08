@@ -21,12 +21,18 @@ public class TeamsPage {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
+    //Teams tab locator
+    By teamsTab = By.linkText("TEAMS");
+
     // Locator for all team cards
     By teamCards = By.xpath("//a[contains(@class,'w-100')]");
 
     // Inside each card
     By teamLogo = By.xpath(".//img");
 
+    public void clickTeams() {
+        elementUtils.click(teamsTab);
+    }
     // Get all teams
     public List<WebElement> getAllTeams() {
         return driver.findElements(teamCards);
