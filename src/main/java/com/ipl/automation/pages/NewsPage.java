@@ -21,7 +21,7 @@ public class NewsPage {
     By newsTab = By.xpath("//*[@id=\"myHeader\"]/div/div[3]/div/div/nav/ul/li[5]/a");
     By searchIcon = By.id("searchIconHeader");
     By searchInput = By.id("searchInputForHeader");
-    By results = By.xpath("//a[contains(@href,'/news/')]");
+    By results = By.className("textTwoLine");
 
     // Actions
 
