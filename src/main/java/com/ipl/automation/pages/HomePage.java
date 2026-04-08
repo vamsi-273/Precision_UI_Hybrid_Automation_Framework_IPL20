@@ -5,8 +5,9 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import com.ipl.automation.utils.ElementUtils;
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage {
@@ -22,24 +23,48 @@ public class HomePage {
     }
 
     // Locators
-    By teamsTab = By.linkText("TEAMS");
+    private final By footer = By.tagName("footer");
+
+    private final By teamSection = By.xpath("//*[@id='footer-main']/div[2]/div[1]/div[1]");
+    private final By aboutSection = By.xpath("//*[@id='footer-main']/div[2]/div[1]/div[2]");
+    private final By guidelinesSection = By.xpath("//*[@id='footer-main']/div[2]/div[1]/div[3]");
+    private final By contactSection = By.xpath("//*[@id='footer-main']/div[2]/div[1]/div[4]");
 
     // Actions
-    public String getFooterText() {
-        wait.until(ExpectedConditions.textToBePresentInElementLocated(
-                By.tagName("footer"), "TEAM"));
-
-        return driver.findElement(By.tagName("footer")).getText();
-    }
-
-    public void clickTeams() {
-        elementUtils.click(teamsTab);
-    }
-
     public void scrollToFooter() {
-        WebElement footer = driver.findElement(By.tagName("footer"));
+        WebElement footerElement = driver.findElement(footer);
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].scrollIntoView({block: 'end'});", footer);
+        js.executeScript("arguments[0].scrollIntoView({block: 'end'});", footerElement);
+    }
+
+    // General method
+    private List<String> getLinks(By locator) {
+        List<String> linksText = new ArrayList<>();
+
+        List<WebElement> links = driver.findElements(locator);
+
+        for (WebElement link : links) {
+            linksText.add(link.getText());
+        }
+
+        return linksText;
+    }
+
+    // Methods for each section
+    public List<String> getTeamLinks() {
+        return getLinks(teamSection);
+    }
+
+    public List<String> getAboutLinks() {
+        return getLinks(aboutSection);
+    }
+
+    public List<String> getGuidelineLinks() {
+        return getLinks(guidelinesSection);
+    }
+
+    public List<String> getContactLinks() {
+        return getLinks(contactSection);
     }
 }
