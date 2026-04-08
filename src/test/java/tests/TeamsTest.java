@@ -14,13 +14,8 @@ public class TeamsTest extends BaseTest {
 
     @Test
     public void verifyTeamDetails() {
-
-        HomePage homePage = new HomePage(driver);
-
-        // Navigate
-        homePage.clickTeams();
-
         TeamsPage teamsPage = new TeamsPage(driver);
+        teamsPage.clickTeams();
         teamsPage.acceptCookies();
 
         String[] expectedTeams = TestData.getTeamNames();
