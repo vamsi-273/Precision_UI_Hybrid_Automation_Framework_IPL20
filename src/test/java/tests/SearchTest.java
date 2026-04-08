@@ -16,6 +16,9 @@ public class SearchTest extends BaseTest {
         newsPage.clickNewsTab();
         System.out.println("Navigated to News section");
 
+        // Accept cookies
+        newsPage.acceptCookies();
+
         // Search
         newsPage.clickSearchIcon();
         newsPage.enterSearchText("Auction 2026");

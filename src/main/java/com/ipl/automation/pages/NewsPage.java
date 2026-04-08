@@ -1,20 +1,26 @@
 package com.ipl.automation.pages;
 
 import org.openqa.selenium.*;
+
+import java.time.Duration;
 import java.util.List;
 import com.ipl.automation.utils.ElementUtils;
 import com.ipl.automation.utils.WaitUtils;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class NewsPage {
 
     WebDriver driver;
     ElementUtils elementUtils;
     WaitUtils waitUtils;
+    WebDriverWait wait;
 
     public NewsPage(WebDriver driver) {
         this.driver = driver;
         this.elementUtils = new ElementUtils(driver);
         this.waitUtils = new WaitUtils(driver);
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
     // Locators
@@ -61,5 +67,17 @@ public class NewsPage {
     public void clickFirstResult() {
         WebElement first = driver.findElements(results).get(0);
         first.click();
+    }
+    public void acceptCookies() {
+        try {
+            WebElement acceptBtn = wait.until(
+                    ExpectedConditions.elementToBeClickable(
+                            By.xpath("//button[contains(text(),'Accept')]")
+                    )
+            );
+            acceptBtn.click();
+        } catch (Exception e) {
+            System.out.println("No cookie popup");
+        }
     }
 }
