@@ -8,7 +8,7 @@ import com.ipl.automation.utils.ScreenshotUtils;
 
 public class BaseTest {
 
-    protected WebDriver driver;
+    public WebDriver driver;
 
     @Parameters("browser")
     @BeforeMethod
