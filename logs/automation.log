@@ -1,0 +1,18 @@
+2026-04-08 18:57:29 INFO  tests.HomeTest - Opening IPL Home Page
+2026-04-08 18:57:30 INFO  tests.HomeTest - Scrolling to footer
+2026-04-08 18:57:30 INFO  tests.HomeTest - Validating TEAM section
+2026-04-08 19:04:40 INFO  tests.HomeTest - Opening Home Page
+2026-04-08 19:04:40 INFO  tests.HomeTest - Scrolling to footer
+2026-04-08 19:04:40 INFO  tests.HomeTest - Validating TEAM section links
+2026-04-08 19:12:59 INFO  tests.HomeTest - Opening Home Page
+2026-04-08 19:13:00 INFO  tests.HomeTest - Scrolling to footer
+2026-04-08 19:13:00 INFO  tests.HomeTest - Validating TEAM section links
+2026-04-08 19:13:00 INFO  tests.HomeTest - Validating ABOUT section links
+2026-04-08 19:13:01 INFO  tests.HomeTest - Validating GUIDELINES section links
+2026-04-08 19:17:34 INFO  tests.HomeTest - Opening Home Page
+2026-04-08 19:17:34 INFO  tests.HomeTest - Scrolling to footer
+2026-04-08 19:17:34 INFO  tests.HomeTest - Validating TEAM section links
+2026-04-08 19:17:34 INFO  tests.HomeTest - Validating ABOUT section links
+2026-04-08 19:17:34 INFO  tests.HomeTest - Validating GUIDELINES section links
+2026-04-08 19:17:34 INFO  tests.HomeTest - Validating CONTACT section links
+2026-04-08 19:17:36 INFO  tests.HomeTest - Footer validation completed successfully

@@ -4,19 +4,34 @@ import com.ipl.automation.base.BaseTest;
 import com.ipl.automation.pages.HomePage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class HomeTest extends BaseTest {
 
+    Logger log = LogManager.getLogger(HomeTest.class);
+
     @Test
     public void verifyFooterLinks() {
+
+        log.info("Opening Home Page");
         HomePage homePage = new HomePage(driver);
 
+        log.info("Scrolling to footer");
         homePage.scrollToFooter();
-        String footerLinkText = homePage.getFooterText();
 
-        Assert.assertTrue(footerLinkText.contains("TEAM"));
-        Assert.assertTrue(footerLinkText.contains("ABOUT"));
-        Assert.assertTrue(footerLinkText.contains("GUIDELINES"));
-        Assert.assertTrue(footerLinkText.contains("CONTACT"));
+        log.info("Validating TEAM section links");
+        Assert.assertFalse(homePage.getTeamLinks().isEmpty(), "TEAM section has no links");
+
+        log.info("Validating ABOUT section links");
+        Assert.assertFalse(homePage.getAboutLinks().isEmpty(), "ABOUT section has no links");
+
+        log.info("Validating GUIDELINES section links");
+        Assert.assertFalse(homePage.getGuidelineLinks().isEmpty(), "GUIDELINES section has no links");
+
+        log.info("Validating CONTACT section links");
+        Assert.assertFalse(homePage.getContactLinks().isEmpty(), "CONTACT section has no links");
+
+        log.info("Footer validation completed successfully");
     }
 }
