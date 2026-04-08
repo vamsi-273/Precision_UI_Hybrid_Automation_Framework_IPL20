@@ -1,5 +1,6 @@
 package com.ipl.automation.base;
 
+import com.ipl.automation.utils.ConfigReader;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
@@ -14,7 +15,7 @@ public class BaseTest {
     public void setUp(String browser) {
 
         driver = DriverFactory.initDriver(browser);
-        driver.get("https://www.iplt20.com/");
+        driver.get(ConfigReader.get("baseUrl"));
     }
 
     @AfterMethod
