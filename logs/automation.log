@@ -1,18 +1,77 @@
-2026-04-08 18:57:29 INFO  tests.HomeTest - Opening IPL Home Page
-2026-04-08 18:57:30 INFO  tests.HomeTest - Scrolling to footer
-2026-04-08 18:57:30 INFO  tests.HomeTest - Validating TEAM section
-2026-04-08 19:04:40 INFO  tests.HomeTest - Opening Home Page
-2026-04-08 19:04:40 INFO  tests.HomeTest - Scrolling to footer
-2026-04-08 19:04:40 INFO  tests.HomeTest - Validating TEAM section links
-2026-04-08 19:12:59 INFO  tests.HomeTest - Opening Home Page
-2026-04-08 19:13:00 INFO  tests.HomeTest - Scrolling to footer
-2026-04-08 19:13:00 INFO  tests.HomeTest - Validating TEAM section links
-2026-04-08 19:13:00 INFO  tests.HomeTest - Validating ABOUT section links
-2026-04-08 19:13:01 INFO  tests.HomeTest - Validating GUIDELINES section links
-2026-04-08 19:17:34 INFO  tests.HomeTest - Opening Home Page
-2026-04-08 19:17:34 INFO  tests.HomeTest - Scrolling to footer
-2026-04-08 19:17:34 INFO  tests.HomeTest - Validating TEAM section links
-2026-04-08 19:17:34 INFO  tests.HomeTest - Validating ABOUT section links
-2026-04-08 19:17:34 INFO  tests.HomeTest - Validating GUIDELINES section links
-2026-04-08 19:17:34 INFO  tests.HomeTest - Validating CONTACT section links
-2026-04-08 19:17:36 INFO  tests.HomeTest - Footer validation completed successfully
+2026-04-09 10:42:33 INFO  tests.HomeTest - ---------------Case 1: Footer Links Test---------------
+2026-04-09 10:42:33 INFO  tests.HomeTest - Opening Home Page
+2026-04-09 10:42:33 INFO  tests.HomeTest - Scrolling to footer
+2026-04-09 10:42:33 INFO  tests.HomeTest - Validating TEAM section links
+2026-04-09 10:42:33 INFO  tests.HomeTest - Validating ABOUT section links
+2026-04-09 10:42:33 INFO  tests.HomeTest - Validating GUIDELINES section links
+2026-04-09 10:42:33 INFO  tests.HomeTest - Validating CONTACT section links
+2026-04-09 10:42:33 INFO  tests.HomeTest - Footer validation completed successfully
+2026-04-09 10:42:33 INFO  tests.HomeTest - ---------------Test Case Completed---------------
+2026-04-09 10:42:33 INFO  tests.HomeTest - 
+2026-04-09 10:42:40 INFO  tests.TeamsTest - ---------------Case 2: Teams Hover Test---------------
+2026-04-09 10:42:40 INFO  tests.TeamsTest - Navigating to Teams page
+2026-04-09 10:42:42 INFO  tests.TeamsTest - Total number teams listed: 10
+2026-04-09 10:42:43 INFO  tests.TeamsTest - Validating team: Chennai Super Kings
+2026-04-09 10:42:45 INFO  tests.TeamsTest - Team: Chennai Super Kings
+2026-04-09 10:42:45 INFO  tests.TeamsTest - Winning years: CSK
+2010 | 2011 | 2018 | 2021 | 2023
+2026-04-09 10:42:45 INFO  tests.TeamsTest - 
+2026-04-09 10:42:45 INFO  tests.TeamsTest - Validating team: Delhi Capitals
+2026-04-09 10:42:47 INFO  tests.TeamsTest - Team: Delhi Capitals
+2026-04-09 10:42:47 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-09 10:42:47 INFO  tests.TeamsTest - 
+2026-04-09 10:42:47 INFO  tests.TeamsTest - Validating team: Gujarat Titans
+2026-04-09 10:42:49 INFO  tests.TeamsTest - Team: Gujarat Titans
+2026-04-09 10:42:49 INFO  tests.TeamsTest - Winning years: GT
+2022
+2026-04-09 10:42:49 INFO  tests.TeamsTest - 
+2026-04-09 10:42:49 INFO  tests.TeamsTest - Validating team: Kolkata Knight Riders
+2026-04-09 10:42:51 INFO  tests.TeamsTest - Team: Kolkata Knight Riders
+2026-04-09 10:42:51 INFO  tests.TeamsTest - Winning years: KKR
+2012 | 2014 | 2024
+2026-04-09 10:42:51 INFO  tests.TeamsTest - 
+2026-04-09 10:42:51 INFO  tests.TeamsTest - Validating team: Lucknow Super Giants
+2026-04-09 10:42:53 INFO  tests.TeamsTest - Team: Lucknow Super Giants
+2026-04-09 10:42:53 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-09 10:42:53 INFO  tests.TeamsTest - 
+2026-04-09 10:42:53 INFO  tests.TeamsTest - Validating team: Mumbai Indians
+2026-04-09 10:42:55 INFO  tests.TeamsTest - Team: Mumbai Indians
+2026-04-09 10:42:55 INFO  tests.TeamsTest - Winning years: MI
+2013 | 2015 | 2017 | 2019 | 2020
+2026-04-09 10:42:55 INFO  tests.TeamsTest - 
+2026-04-09 10:42:55 INFO  tests.TeamsTest - Validating team: Punjab Kings
+2026-04-09 10:42:57 INFO  tests.TeamsTest - Team: Punjab Kings
+2026-04-09 10:42:57 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-09 10:42:57 INFO  tests.TeamsTest - 
+2026-04-09 10:42:57 INFO  tests.TeamsTest - Validating team: Rajasthan Royals
+2026-04-09 10:42:59 INFO  tests.TeamsTest - Team: Rajasthan Royals
+2026-04-09 10:42:59 INFO  tests.TeamsTest - Winning years: RR
+2008
+2026-04-09 10:42:59 INFO  tests.TeamsTest - 
+2026-04-09 10:42:59 INFO  tests.TeamsTest - Validating team: Royal Challengers Bengaluru
+2026-04-09 10:43:01 INFO  tests.TeamsTest - Team: Royal Challengers Bengaluru
+2026-04-09 10:43:01 INFO  tests.TeamsTest - Winning years: RCB
+2025
+2026-04-09 10:43:01 INFO  tests.TeamsTest - 
+2026-04-09 10:43:01 INFO  tests.TeamsTest - Validating team: Sunrisers Hyderabad
+2026-04-09 10:43:03 INFO  tests.TeamsTest - Team: Sunrisers Hyderabad
+2026-04-09 10:43:03 INFO  tests.TeamsTest - Winning years: SRH
+2016
+2026-04-09 10:43:03 INFO  tests.TeamsTest - 
+2026-04-09 10:43:03 INFO  tests.TeamsTest - ---------------Test Case Completed---------------
+2026-04-09 10:43:03 INFO  tests.TeamsTest - 
+2026-04-09 10:43:16 INFO  tests.PointsTest - ---------------Case 3: Points Table Test---------------
+2026-04-09 10:43:16 INFO  tests.PointsTest - Clicking on Points Table
+2026-04-09 10:43:21 INFO  tests.PointsTest - Fetching top team details from Points Table
+2026-04-09 10:43:22 INFO  tests.PointsTest - Top Team: RR
+2026-04-09 10:43:22 INFO  tests.PointsTest - Matches Played: 3
+2026-04-09 10:43:22 INFO  tests.PointsTest - Points: 6
+2026-04-09 10:43:22 INFO  tests.PointsTest - ---------------Test Case Completed---------------
+2026-04-09 10:43:22 INFO  tests.PointsTest - 
+2026-04-09 10:43:28 INFO  tests.SearchTest - ---------------Case 4: Search Test---------------
+2026-04-09 10:43:28 INFO  tests.SearchTest - Navigating to News section
+2026-04-09 10:43:31 INFO  tests.SearchTest - Performing search for: Auction 2026
+2026-04-09 10:43:36 INFO  tests.SearchTest - Validating search results for relevance
+2026-04-09 10:43:36 INFO  tests.SearchTest - Clicking on first search result
+2026-04-09 10:43:37 INFO  tests.SearchTest - ---------------Test Case Completed---------------
+2026-04-09 10:43:37 INFO  tests.SearchTest - 
