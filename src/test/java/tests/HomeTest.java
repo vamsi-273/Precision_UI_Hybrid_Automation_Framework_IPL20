@@ -14,6 +14,8 @@ public class HomeTest extends BaseTest {
     @Test
     public void verifyFooterLinks() {
 
+        log.info("---------------Case 1: Footer Links Test---------------");
+
         log.info("Opening Home Page");
         HomePage homePage = new HomePage(driver);
 
@@ -33,7 +35,8 @@ public class HomeTest extends BaseTest {
         Assert.assertFalse(homePage.getContactLinks().isEmpty(), "CONTACT section has no links");
 
         log.info("Footer validation completed successfully");
-        log.info("");
+
+        log.info("---------------Test Case Completed---------------");
         log.info("");
     }
 }
