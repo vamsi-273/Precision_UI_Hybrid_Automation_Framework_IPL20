@@ -20,8 +20,8 @@ public class TicketsPage {
 
     // Locators
     By ticketsTab = By.xpath("//ul[contains(@class,'site-menu main-menu js-clone-nav d-none d-lg-block textCenter')]//a[contains(@onclick,'click_menu(this)')][normalize-space()='TICKETS']");
-    By buyTicketsBtn = By.xpath("//li[2]//div[2]//div[3]//div[1]//a[1]");
-    By matchCentreBtn = By.xpath("//li[2]//div[2]//div[3]//div[1]//a[2]");
+    By buyTicketsBtn = By.xpath("(//a[@title='Buy Tickets'])[2]");
+    By matchCentreBtn = By.xpath("(//a[@class='vn-matchBtn ng-scope'][normalize-space()='Match Centre'])[2]");
 
     // Actions
 
