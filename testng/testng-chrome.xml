@@ -16,6 +16,8 @@
             <class name ="tests.SearchTest"/>
             <class name ="tests.TicketsTest"/>
             <class name ="tests.VenuesTest"/>
+            <class name ="tests.AuctionTest"/>
+            <class name ="tests.StatsTest"/>
         </classes>
     </test>
 </suite>
