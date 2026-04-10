@@ -15,5 +15,17 @@
     "name": "RR",
     "matches": 3,
     "points": 6
-  }
+  },
+  "venues": [
+    "M. A. Chidambaram Stadium",
+    "Arun Jaitley Stadium",
+    "Narendra Modi Stadium",
+    "Eden Gardens",
+    "BRSABV Ekana Cricket Stadium",
+    "Wankhede Stadium",
+    "New International Cricket Stadium",
+    "Sawai Mansingh Stadium",
+    "M. Chinnaswamy Stadium",
+    "Rajiv Gandhi Intl. Cricket Stadium"
+  ]
 }
