@@ -12,7 +12,7 @@ import java.util.List;
 
 public class VenuesTest extends BaseTest {
 
-    Logger log = LogManager.getLogger(TicketsTest.class);
+    Logger log = LogManager.getLogger(VenuesTest.class);
 
     @Test
     public void verifyVenuesFromJson() {
