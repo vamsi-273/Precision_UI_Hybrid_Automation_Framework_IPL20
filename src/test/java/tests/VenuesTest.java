@@ -2,7 +2,7 @@ package tests;
 
 import com.ipl.automation.base.BaseTest;
 import com.ipl.automation.pages.VenuesPage;
-import com.ipl.automation.utils.TestData;
+import com.ipl.automation.utils.JsonDataProvider;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
@@ -30,7 +30,7 @@ public class VenuesTest extends BaseTest {
         log.info("Venues data fetched");
 
         // Get JSON data
-        List<String> expectedVenues = TestData.getVenuesFromJson();
+        List<String> expectedVenues = JsonDataProvider.getVenuesFromJson();
         log.info("Json data for venues fetched");
 
         // Validate venues

@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestData {
+public class JsonDataProvider {
 
     static JsonObject data;
 

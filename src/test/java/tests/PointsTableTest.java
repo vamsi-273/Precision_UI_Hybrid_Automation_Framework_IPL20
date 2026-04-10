@@ -6,7 +6,7 @@ import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Test;
 import com.ipl.automation.pages.PointsPage;
 import org.testng.Assert;
-import com.ipl.automation.utils.TestData;
+import com.ipl.automation.utils.JsonDataProvider;
 
 public class PointsTableTest extends BaseTest {
 
@@ -35,20 +35,20 @@ public class PointsTableTest extends BaseTest {
         log.info("Points: {}", points);
 
         // Assertions
-        if (!topTeam.equals(TestData.getTopTeamName())) {
-            log.error("Top team mismatch. Expected: {}, Actual: {}", TestData.getTopTeamName(), topTeam);
+        if (!topTeam.equals(JsonDataProvider.getTopTeamName())) {
+            log.error("Top team mismatch. Expected: {}, Actual: {}", JsonDataProvider.getTopTeamName(), topTeam);
         }
-        Assert.assertEquals(topTeam, TestData.getTopTeamName(), "Top team mismatch");
+        Assert.assertEquals(topTeam, JsonDataProvider.getTopTeamName(), "Top team mismatch");
 
-        if (matches != TestData.getTopTeamMatches()) {
-            log.error("Matches mismatch. Expected: {}, Actual: {}", TestData.getTopTeamMatches(), matches);
+        if (matches != JsonDataProvider.getTopTeamMatches()) {
+            log.error("Matches mismatch. Expected: {}, Actual: {}", JsonDataProvider.getTopTeamMatches(), matches);
         }
-        Assert.assertEquals(matches, TestData.getTopTeamMatches(), "Matches mismatch");
+        Assert.assertEquals(matches, JsonDataProvider.getTopTeamMatches(), "Matches mismatch");
 
-        if (points != TestData.getTopTeamPoints()) {
-            log.error("Points mismatch. Expected: {}, Actual: {}", TestData.getTopTeamPoints(), points);
+        if (points != JsonDataProvider.getTopTeamPoints()) {
+            log.error("Points mismatch. Expected: {}, Actual: {}", JsonDataProvider.getTopTeamPoints(), points);
         }
-        Assert.assertEquals(points, TestData.getTopTeamPoints(), "Points mismatch");
+        Assert.assertEquals(points, JsonDataProvider.getTopTeamPoints(), "Points mismatch");
 
         log.info("---------------Test Case Completed---------------");
         log.info("");

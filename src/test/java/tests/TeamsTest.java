@@ -2,7 +2,7 @@ package tests;
 
 import com.ipl.automation.base.BaseTest;
 import com.ipl.automation.pages.TeamsPage;
-import com.ipl.automation.utils.TestData;
+import com.ipl.automation.utils.JsonDataProvider;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -26,7 +26,7 @@ public class TeamsTest extends BaseTest {
 
         teamsPage.acceptCookies();
 
-        String[] expectedTeams = TestData.getTeamNames();
+        String[] expectedTeams = JsonDataProvider.getTeamNames();
         List<WebElement> teams = teamsPage.getAllTeams();
         log.info("Total number teams listed: {}", teams.size());
 
