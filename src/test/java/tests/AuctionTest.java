@@ -14,7 +14,7 @@ public class AuctionTest extends BaseTest {
     @Test
     public void validateAuctionPage() throws InterruptedException {
 
-        log.info("---------------Case 7: Auction Page Test---------------");
+        log.info("---------------Case 6: Auction Page Test---------------");
 
         AuctionPage auctionPage = new AuctionPage(driver);
 

@@ -17,7 +17,7 @@ public class VenuesTest extends BaseTest {
     @Test
     public void verifyVenuesFromJson() {
 
-        log.info("---------------Case 6: Teams Hover Test---------------");
+        log.info("---------------Case 5: Teams Hover Test---------------");
 
         VenuesPage venuesPage = new VenuesPage(driver);
 

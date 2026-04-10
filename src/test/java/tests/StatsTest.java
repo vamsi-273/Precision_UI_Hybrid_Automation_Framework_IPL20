@@ -14,7 +14,7 @@ public class StatsTest extends BaseTest {
     @Test
     public void openStatsPageTest() throws InterruptedException {
 
-        log.info("---------------Case 8: Stats Page Test---------------");
+        log.info("---------------Case 7: Stats Page Test---------------");
 
         StatsPage statsPage = new StatsPage(driver);
 
