@@ -8,9 +8,9 @@ import com.ipl.automation.pages.PointsPage;
 import org.testng.Assert;
 import com.ipl.automation.utils.TestData;
 
-public class PointsTest extends BaseTest {
+public class PointsTableTest extends BaseTest {
 
-    Logger log = LogManager.getLogger(PointsTest.class);
+    Logger log = LogManager.getLogger(PointsTableTest.class);
 
     @Test
     public void openPointsTable() {

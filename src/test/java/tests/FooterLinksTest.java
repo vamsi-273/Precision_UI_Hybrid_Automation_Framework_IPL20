@@ -7,9 +7,9 @@ import org.testng.annotations.Test;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class HomeTest extends BaseTest {
+public class FooterLinksTest extends BaseTest {
 
-    Logger log = LogManager.getLogger(HomeTest.class);
+    Logger log = LogManager.getLogger(FooterLinksTest.class);
 
     @Test
     public void verifyFooterLinks() {
