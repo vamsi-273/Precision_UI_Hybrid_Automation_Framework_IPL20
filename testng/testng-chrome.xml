@@ -10,10 +10,12 @@
 
     <test name="IPL Tests for Chrome">
         <classes>
-            <class name ="tests.HomeTest"/>
+            <class name ="tests.FooterLinksTest"/>
             <class name ="tests.TeamsTest"/>
-            <class name ="tests.PointsTest"/>
+            <class name ="tests.PointsTableTest"/>
             <class name ="tests.SearchTest"/>
+            <class name ="tests.TicketsTest"/>
+            <class name ="tests.VenuesTest"/>
         </classes>
     </test>
 </suite>

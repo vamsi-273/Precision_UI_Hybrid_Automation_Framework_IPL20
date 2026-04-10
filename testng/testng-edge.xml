@@ -5,9 +5,9 @@
 
     <test name="IPL Tests for Edge">
         <classes>
-            <class name ="tests.HomeTest"/>
+            <class name ="tests.FooterLinksTest"/>
             <class name ="tests.TeamsTest"/>
-            <class name ="tests.PointsTest"/>
+            <class name ="tests.PointsTableTest"/>
             <class name ="tests.SearchTest"/>
         </classes>
     </test>
