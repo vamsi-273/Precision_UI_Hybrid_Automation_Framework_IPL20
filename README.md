@@ -38,56 +38,33 @@ It automates key IPL user journeys like:
 ---
 
 ##  Project Structure
->Precision_UI_Hybrid_Automation_Framework_IPL20
->
->│
->
->├── src/main/java/com/ipl/automation
->
->│ ├── base → Driver setup & BaseTest
->
->│ ├── pages → Page Object classes
->
->│ ├── utils → Waits, Config, Screenshot, Reporting
->
->│
->
->├── src/test/java/tests
->
->│ ├── TeamsTest.java
->
->│ ├── PointsTableTest.java
->
->│ ├── SearchTest.java
->
->│ ├── StatsTest.java
->
->│ ├── VenuesTest.java
->
->│ ├── AuctionTest.java
->
->│ ├── FooterLinksTest.java
->
->│
->
->├── src/main/resources
->
->│ ├── config.properties
->
->│ ├── log4j2.xml
->
->│
->
->├── src/test/resources
->
->│ ├── testdata.json
->
->│
->
->├── pom.xml
->
->└── README.md
-
+```
+Precision_UI_Hybrid_Automation_Framework_IPL20
+│
+├── src/main/java/com/ipl/automation
+│ ├── base → Driver setup & BaseTest
+│ ├── pages → Page Object classes
+│ ├── utils → Waits, Config, Screenshot, Reporting
+│
+├── src/test/java/tests
+│ ├── TeamsTest.java
+│ ├── PointsTableTest.java
+│ ├── SearchTest.java
+│ ├── StatsTest.java
+│ ├── VenuesTest.java
+│ ├── AuctionTest.java
+│ ├── FooterLinksTest.java
+│
+├── src/main/resources
+│ ├── config.properties
+│ ├── log4j2.xml
+│
+├── src/test/resources
+│ ├── testdata.json
+│
+├── pom.xml
+└── README.md
+```
 ---
 
 ## Test Coverage
