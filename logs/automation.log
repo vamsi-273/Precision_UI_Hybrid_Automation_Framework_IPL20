@@ -822,3 +822,771 @@ RR
 2026-04-10 15:17:16 INFO  tests.StatsTest - Runs: 170
 2026-04-10 15:17:16 INFO  tests.StatsTest - ---------------Test Case Completed---------------
 2026-04-10 15:17:16 INFO  tests.StatsTest - 
+2026-04-18 15:26:17 INFO  tests.FooterLinksTest - ---------------Case 1: Footer Links Test---------------
+2026-04-18 15:26:17 INFO  tests.FooterLinksTest - Opening Home Page
+2026-04-18 15:26:17 INFO  tests.FooterLinksTest - Scrolling to footer
+2026-04-18 15:26:17 INFO  tests.FooterLinksTest - Validating TEAM section links
+2026-04-18 15:26:19 INFO  tests.FooterLinksTest - Validating ABOUT section links
+2026-04-18 15:26:19 INFO  tests.FooterLinksTest - Validating GUIDELINES section links
+2026-04-18 15:26:19 INFO  tests.FooterLinksTest - Validating CONTACT section links
+2026-04-18 15:26:20 INFO  tests.FooterLinksTest - Footer validation completed successfully
+2026-04-18 15:26:20 INFO  tests.FooterLinksTest - ---------------Test Case Completed---------------
+2026-04-18 15:26:20 INFO  tests.FooterLinksTest - 
+2026-04-18 15:26:23 INFO  tests.TeamsTest - ---------------Case 2: Teams Hover Test---------------
+2026-04-18 15:26:23 INFO  tests.TeamsTest - Navigating to Teams page
+2026-04-18 15:26:24 INFO  tests.TeamsTest - Total number teams listed: 10
+2026-04-18 15:26:24 INFO  tests.TeamsTest - Validating team: Chennai Super Kings
+2026-04-18 15:26:26 INFO  tests.TeamsTest - Team: Chennai Super Kings
+2026-04-18 15:26:26 INFO  tests.TeamsTest - Winning years: CSK
+2010 | 2011 | 2018 | 2021 | 2023
+2026-04-18 15:26:26 INFO  tests.TeamsTest - 
+2026-04-18 15:26:26 INFO  tests.TeamsTest - Validating team: Delhi Capitals
+2026-04-18 15:26:28 INFO  tests.TeamsTest - Team: Delhi Capitals
+2026-04-18 15:26:28 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-18 15:26:28 INFO  tests.TeamsTest - 
+2026-04-18 15:26:28 INFO  tests.TeamsTest - Validating team: Gujarat Titans
+2026-04-18 15:26:30 INFO  tests.TeamsTest - Team: Gujarat Titans
+2026-04-18 15:26:30 INFO  tests.TeamsTest - Winning years: GT
+2022
+2026-04-18 15:26:30 INFO  tests.TeamsTest - 
+2026-04-18 15:26:30 INFO  tests.TeamsTest - Validating team: Kolkata Knight Riders
+2026-04-18 15:26:32 INFO  tests.TeamsTest - Team: Kolkata Knight Riders
+2026-04-18 15:26:32 INFO  tests.TeamsTest - Winning years: KKR
+2012 | 2014 | 2024
+2026-04-18 15:26:32 INFO  tests.TeamsTest - 
+2026-04-18 15:26:32 INFO  tests.TeamsTest - Validating team: Lucknow Super Giants
+2026-04-18 15:26:34 INFO  tests.TeamsTest - Team: Lucknow Super Giants
+2026-04-18 15:26:34 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-18 15:26:34 INFO  tests.TeamsTest - 
+2026-04-18 15:26:34 INFO  tests.TeamsTest - Validating team: Mumbai Indians
+2026-04-18 15:26:36 INFO  tests.TeamsTest - Team: Mumbai Indians
+2026-04-18 15:26:36 INFO  tests.TeamsTest - Winning years: MI
+2013 | 2015 | 2017 | 2019 | 2020
+2026-04-18 15:26:36 INFO  tests.TeamsTest - 
+2026-04-18 15:26:36 INFO  tests.TeamsTest - Validating team: Punjab Kings
+2026-04-18 15:26:38 INFO  tests.TeamsTest - Team: Punjab Kings
+2026-04-18 15:26:38 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-18 15:26:38 INFO  tests.TeamsTest - 
+2026-04-18 15:26:38 INFO  tests.TeamsTest - Validating team: Rajasthan Royals
+2026-04-18 15:26:40 INFO  tests.TeamsTest - Team: Rajasthan Royals
+2026-04-18 15:26:40 INFO  tests.TeamsTest - Winning years: RR
+2008
+2026-04-18 15:26:40 INFO  tests.TeamsTest - 
+2026-04-18 15:26:40 INFO  tests.TeamsTest - Validating team: Royal Challengers Bengaluru
+2026-04-18 15:26:42 INFO  tests.TeamsTest - Team: Royal Challengers Bengaluru
+2026-04-18 15:26:42 INFO  tests.TeamsTest - Winning years: RCB
+2025
+2026-04-18 15:26:42 INFO  tests.TeamsTest - 
+2026-04-18 15:26:42 INFO  tests.TeamsTest - Validating team: Sunrisers Hyderabad
+2026-04-18 15:26:44 INFO  tests.TeamsTest - Team: Sunrisers Hyderabad
+2026-04-18 15:26:44 INFO  tests.TeamsTest - Winning years: SRH
+2016
+2026-04-18 15:26:44 INFO  tests.TeamsTest - 
+2026-04-18 15:26:44 INFO  tests.TeamsTest - ---------------Test Case Completed---------------
+2026-04-18 15:26:44 INFO  tests.TeamsTest - 
+2026-04-18 15:26:45 INFO  tests.PointsTableTest - ---------------Case 3: Points Table Test---------------
+2026-04-18 15:26:45 INFO  tests.PointsTableTest - Clicking on Points Table
+2026-04-18 15:26:49 INFO  tests.PointsTableTest - Fetching top team details from Points Table
+2026-04-18 15:26:49 INFO  tests.PointsTableTest - Top Team: PBKS
+2026-04-18 15:26:49 INFO  tests.PointsTableTest - Matches Played: 5
+2026-04-18 15:26:49 INFO  tests.PointsTableTest - Points: 9
+2026-04-18 15:26:49 ERROR tests.PointsTableTest - Top team mismatch. Expected: RR, Actual: PBKS
+2026-04-18 15:26:53 INFO  tests.SearchTest - ---------------Case 4: Search Test---------------
+2026-04-18 15:26:53 INFO  tests.SearchTest - Navigating to News section
+2026-04-18 15:26:54 INFO  tests.SearchTest - Performing search for: Auction 2026
+2026-04-18 15:26:58 INFO  tests.SearchTest - Validating search results for relevance
+2026-04-18 15:26:58 INFO  tests.SearchTest - Clicking on first search result
+2026-04-18 15:26:58 INFO  tests.SearchTest - ---------------Test Case Completed---------------
+2026-04-18 15:26:58 INFO  tests.SearchTest - 
+2026-04-18 15:27:02 INFO  tests.VenuesTest - ---------------Case 5: Teams Hover Test---------------
+2026-04-18 15:27:04 INFO  tests.VenuesTest - Navigated to Venues page
+2026-04-18 15:27:04 INFO  tests.VenuesTest - Venues data fetched
+2026-04-18 15:27:04 INFO  tests.VenuesTest - Json data for venues fetched
+2026-04-18 15:27:04 INFO  tests.VenuesTest - Venue details are being verified
+2026-04-18 15:27:04 INFO  tests.VenuesTest - All venues validated successfully
+2026-04-18 15:27:04 INFO  tests.VenuesTest - ---------------Test Case Completed---------------
+2026-04-18 15:27:04 INFO  tests.VenuesTest - 
+2026-04-18 15:27:08 INFO  tests.AuctionTest - ---------------Case 6: Auction Page Test---------------
+2026-04-18 15:27:08 INFO  tests.AuctionTest - Opening Auction Page
+2026-04-18 15:27:11 INFO  tests.AuctionTest - Accepting cookies if present
+2026-04-18 15:27:11 INFO  tests.AuctionTest - Waiting for page to load
+2026-04-18 15:27:13 INFO  tests.AuctionTest - Scrolling down to load auction data
+2026-04-18 15:27:15 INFO  tests.AuctionTest - Clicking on Top Buys section
+2026-04-18 15:27:16 INFO  tests.AuctionTest - Fetching top buy player details
+2026-04-18 15:27:17 INFO  tests.AuctionTest - Top Buy Player: Cameron Green
+2026-04-18 15:27:17 INFO  tests.AuctionTest - Price: 252000000
+2026-04-18 15:27:17 INFO  tests.AuctionTest - ---------------Test Case Completed---------------
+2026-04-18 15:27:17 INFO  tests.AuctionTest - 
+2026-04-18 15:27:20 INFO  tests.StatsTest - ---------------Case 7: Stats Page Test---------------
+2026-04-18 15:27:20 INFO  tests.StatsTest - Opening Stats Page
+2026-04-18 15:27:28 INFO  tests.StatsTest - Accepting cookies if present
+2026-04-18 15:27:28 INFO  tests.StatsTest - Scrolling down to load stats
+2026-04-18 15:27:31 INFO  tests.StatsTest - Waiting for data to load
+2026-04-18 15:27:33 INFO  tests.StatsTest - Fetching top player details
+2026-04-18 15:27:33 INFO  tests.StatsTest - Top Player: Shubman Gill
+GT
+2026-04-18 15:27:33 INFO  tests.StatsTest - Runs: 251
+2026-04-18 15:27:33 INFO  tests.StatsTest - ---------------Test Case Completed---------------
+2026-04-18 15:27:33 INFO  tests.StatsTest - 
+2026-04-30 10:26:49 INFO  tests.PointsTableTest - ---------------Case 3: Points Table Test---------------
+2026-04-30 10:26:49 INFO  tests.PointsTableTest - Clicking on Points Table
+2026-04-30 10:26:57 INFO  tests.PointsTableTest - Fetching top team details from Points Table
+2026-04-30 10:26:57 INFO  tests.PointsTableTest - Top Team: PBKS
+2026-04-30 10:26:57 INFO  tests.PointsTableTest - Matches Played: 8
+2026-04-30 10:26:57 INFO  tests.PointsTableTest - Points: 13
+2026-04-30 10:26:57 INFO  tests.PointsTableTest - ---------------Test Case Completed---------------
+2026-04-30 10:26:57 INFO  tests.PointsTableTest - 
+2026-04-30 10:28:21 INFO  tests.PointsTableTest - ---------------Case 3: Points Table Test---------------
+2026-04-30 10:28:21 INFO  tests.PointsTableTest - Clicking on Points Table
+2026-04-30 10:28:29 INFO  tests.PointsTableTest - Fetching top team details from Points Table
+2026-04-30 10:28:29 INFO  tests.PointsTableTest - Top Team: PBKS
+2026-04-30 10:28:29 INFO  tests.PointsTableTest - Matches Played: 8
+2026-04-30 10:28:29 INFO  tests.PointsTableTest - Points: 13
+2026-04-30 10:28:29 ERROR tests.PointsTableTest - Points mismatch. Expected: 12, Actual: 13
+2026-04-30 11:29:00 INFO  tests.FooterLinksTest - ---------------Case 1: Footer Links Test---------------
+2026-04-30 11:29:00 INFO  tests.FooterLinksTest - Opening Home Page
+2026-04-30 11:29:00 INFO  tests.FooterLinksTest - Scrolling to footer
+2026-04-30 11:29:01 INFO  tests.FooterLinksTest - Validating TEAM section links
+2026-04-30 11:29:01 INFO  tests.FooterLinksTest - Validating ABOUT section links
+2026-04-30 11:29:01 INFO  tests.FooterLinksTest - Validating GUIDELINES section links
+2026-04-30 11:29:01 INFO  tests.FooterLinksTest - Validating CONTACT section links
+2026-04-30 11:29:01 INFO  tests.FooterLinksTest - Footer validation completed successfully
+2026-04-30 11:29:01 INFO  tests.FooterLinksTest - ---------------Test Case Completed---------------
+2026-04-30 11:29:01 INFO  tests.FooterLinksTest - 
+2026-04-30 11:29:09 INFO  tests.TeamsTest - ---------------Case 2: Teams Hover Test---------------
+2026-04-30 11:29:09 INFO  tests.TeamsTest - Navigating to Teams page
+2026-04-30 11:29:12 INFO  tests.TeamsTest - Total number teams listed: 10
+2026-04-30 11:29:12 INFO  tests.TeamsTest - Validating team: Chennai Super Kings
+2026-04-30 11:29:14 INFO  tests.TeamsTest - Team: Chennai Super Kings
+2026-04-30 11:29:14 INFO  tests.TeamsTest - Winning years: CSK
+2010 | 2011 | 2018 | 2021 | 2023
+2026-04-30 11:29:14 INFO  tests.TeamsTest - 
+2026-04-30 11:29:14 INFO  tests.TeamsTest - Validating team: Delhi Capitals
+2026-04-30 11:29:16 INFO  tests.TeamsTest - Team: Delhi Capitals
+2026-04-30 11:29:16 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-30 11:29:16 INFO  tests.TeamsTest - 
+2026-04-30 11:29:16 INFO  tests.TeamsTest - Validating team: Gujarat Titans
+2026-04-30 11:29:18 INFO  tests.TeamsTest - Team: Gujarat Titans
+2026-04-30 11:29:18 INFO  tests.TeamsTest - Winning years: GT
+2022
+2026-04-30 11:29:18 INFO  tests.TeamsTest - 
+2026-04-30 11:29:18 INFO  tests.TeamsTest - Validating team: Kolkata Knight Riders
+2026-04-30 11:29:20 INFO  tests.TeamsTest - Team: Kolkata Knight Riders
+2026-04-30 11:29:20 INFO  tests.TeamsTest - Winning years: KKR
+2012 | 2014 | 2024
+2026-04-30 11:29:20 INFO  tests.TeamsTest - 
+2026-04-30 11:29:20 INFO  tests.TeamsTest - Validating team: Lucknow Super Giants
+2026-04-30 11:29:22 INFO  tests.TeamsTest - Team: Lucknow Super Giants
+2026-04-30 11:29:22 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-30 11:29:22 INFO  tests.TeamsTest - 
+2026-04-30 11:29:22 INFO  tests.TeamsTest - Validating team: Mumbai Indians
+2026-04-30 11:29:24 INFO  tests.TeamsTest - Team: Mumbai Indians
+2026-04-30 11:29:24 INFO  tests.TeamsTest - Winning years: MI
+2013 | 2015 | 2017 | 2019 | 2020
+2026-04-30 11:29:24 INFO  tests.TeamsTest - 
+2026-04-30 11:29:24 INFO  tests.TeamsTest - Validating team: Punjab Kings
+2026-04-30 11:29:25 INFO  tests.TeamsTest - Team: Punjab Kings
+2026-04-30 11:29:25 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-30 11:29:25 INFO  tests.TeamsTest - 
+2026-04-30 11:29:25 INFO  tests.TeamsTest - Validating team: Rajasthan Royals
+2026-04-30 11:29:27 INFO  tests.TeamsTest - Team: Rajasthan Royals
+2026-04-30 11:29:27 INFO  tests.TeamsTest - Winning years: RR
+2008
+2026-04-30 11:29:27 INFO  tests.TeamsTest - 
+2026-04-30 11:29:27 INFO  tests.TeamsTest - Validating team: Royal Challengers Bengaluru
+2026-04-30 11:29:29 INFO  tests.TeamsTest - Team: Royal Challengers Bengaluru
+2026-04-30 11:29:29 INFO  tests.TeamsTest - Winning years: RCB
+2025
+2026-04-30 11:29:29 INFO  tests.TeamsTest - 
+2026-04-30 11:29:29 INFO  tests.TeamsTest - Validating team: Sunrisers Hyderabad
+2026-04-30 11:29:31 INFO  tests.TeamsTest - Team: Sunrisers Hyderabad
+2026-04-30 11:29:31 INFO  tests.TeamsTest - Winning years: SRH
+2016
+2026-04-30 11:29:31 INFO  tests.TeamsTest - 
+2026-04-30 11:29:31 INFO  tests.TeamsTest - ---------------Test Case Completed---------------
+2026-04-30 11:29:31 INFO  tests.TeamsTest - 
+2026-04-30 11:29:36 INFO  tests.PointsTableTest - ---------------Case 3: Points Table Test---------------
+2026-04-30 11:29:36 INFO  tests.PointsTableTest - Clicking on Points Table
+2026-04-30 11:29:42 INFO  tests.PointsTableTest - Fetching top team details from Points Table
+2026-04-30 11:29:43 INFO  tests.PointsTableTest - Top Team: PBKS
+2026-04-30 11:29:43 INFO  tests.PointsTableTest - Matches Played: 8
+2026-04-30 11:29:43 INFO  tests.PointsTableTest - Points: 13
+2026-04-30 11:29:43 INFO  tests.PointsTableTest - ---------------Test Case Completed---------------
+2026-04-30 11:29:43 INFO  tests.PointsTableTest - 
+2026-04-30 11:29:45 INFO  tests.SearchTest - ---------------Case 4: Search Test---------------
+2026-04-30 11:29:45 INFO  tests.SearchTest - Navigating to News section
+2026-04-30 11:29:58 INFO  tests.SearchTest - Performing search for: Auction 2026
+2026-04-30 11:30:06 INFO  tests.SearchTest - Validating search results for relevance
+2026-04-30 11:30:06 INFO  tests.SearchTest - Clicking on first search result
+2026-04-30 11:30:07 INFO  tests.SearchTest - ---------------Test Case Completed---------------
+2026-04-30 11:30:07 INFO  tests.SearchTest - 
+2026-04-30 11:30:16 INFO  tests.VenuesTest - ---------------Case 5: Teams Hover Test---------------
+2026-04-30 11:30:21 INFO  tests.VenuesTest - Navigated to Venues page
+2026-04-30 11:30:21 INFO  tests.VenuesTest - Venues data fetched
+2026-04-30 11:30:21 INFO  tests.VenuesTest - Json data for venues fetched
+2026-04-30 11:30:21 INFO  tests.VenuesTest - Venue details are being verified
+2026-04-30 11:30:21 INFO  tests.VenuesTest - All venues validated successfully
+2026-04-30 11:30:21 INFO  tests.VenuesTest - ---------------Test Case Completed---------------
+2026-04-30 11:30:21 INFO  tests.VenuesTest - 
+2026-04-30 11:30:28 INFO  tests.AuctionTest - ---------------Case 6: Auction Page Test---------------
+2026-04-30 11:30:28 INFO  tests.AuctionTest - Opening Auction Page
+2026-04-30 11:30:37 INFO  tests.AuctionTest - Accepting cookies if present
+2026-04-30 11:30:38 INFO  tests.AuctionTest - Waiting for page to load
+2026-04-30 11:30:40 INFO  tests.AuctionTest - Scrolling down to load auction data
+2026-04-30 11:30:42 INFO  tests.AuctionTest - Clicking on Top Buys section
+2026-04-30 11:30:43 INFO  tests.AuctionTest - Fetching top buy player details
+2026-04-30 11:30:44 INFO  tests.AuctionTest - Top Buy Player: Cameron Green
+2026-04-30 11:30:44 INFO  tests.AuctionTest - Price: 252000000
+2026-04-30 11:30:44 INFO  tests.AuctionTest - ---------------Test Case Completed---------------
+2026-04-30 11:30:44 INFO  tests.AuctionTest - 
+2026-04-30 11:30:51 INFO  tests.StatsTest - ---------------Case 7: Stats Page Test---------------
+2026-04-30 11:30:51 INFO  tests.StatsTest - Opening Stats Page
+2026-04-30 11:31:02 INFO  tests.StatsTest - Accepting cookies if present
+2026-04-30 11:31:02 INFO  tests.StatsTest - Scrolling down to load stats
+2026-04-30 11:31:05 INFO  tests.StatsTest - Waiting for data to load
+2026-04-30 11:31:07 INFO  tests.StatsTest - Fetching top player details
+2026-04-30 11:31:07 INFO  tests.StatsTest - Top Player: Abhishek Sharma
+SRH
+2026-04-30 11:31:07 INFO  tests.StatsTest - Runs: 425
+2026-04-30 11:31:07 INFO  tests.StatsTest - ---------------Test Case Completed---------------
+2026-04-30 11:31:07 INFO  tests.StatsTest - 
+2026-04-30 11:35:21 INFO  tests.FooterLinksTest - ---------------Case 1: Footer Links Test---------------
+2026-04-30 11:35:21 INFO  tests.FooterLinksTest - Opening Home Page
+2026-04-30 11:35:21 INFO  tests.FooterLinksTest - Scrolling to footer
+2026-04-30 11:35:21 INFO  tests.FooterLinksTest - Validating TEAM section links
+2026-04-30 11:35:21 INFO  tests.FooterLinksTest - Validating ABOUT section links
+2026-04-30 11:35:21 INFO  tests.FooterLinksTest - Validating GUIDELINES section links
+2026-04-30 11:35:21 INFO  tests.FooterLinksTest - Validating CONTACT section links
+2026-04-30 11:35:21 INFO  tests.FooterLinksTest - Footer validation completed successfully
+2026-04-30 11:35:21 INFO  tests.FooterLinksTest - ---------------Test Case Completed---------------
+2026-04-30 11:35:21 INFO  tests.FooterLinksTest - 
+2026-04-30 11:35:26 INFO  tests.TeamsTest - ---------------Case 2: Teams Hover Test---------------
+2026-04-30 11:35:26 INFO  tests.TeamsTest - Navigating to Teams page
+2026-04-30 11:35:32 INFO  tests.TeamsTest - Total number teams listed: 10
+2026-04-30 11:35:33 INFO  tests.TeamsTest - Validating team: Chennai Super Kings
+2026-04-30 11:35:34 INFO  tests.TeamsTest - Team: Chennai Super Kings
+2026-04-30 11:35:34 INFO  tests.TeamsTest - Winning years: CSK
+2010 | 2011 | 2018 | 2021 | 2023
+2026-04-30 11:35:34 INFO  tests.TeamsTest - 
+2026-04-30 11:35:34 INFO  tests.TeamsTest - Validating team: Delhi Capitals
+2026-04-30 11:35:36 INFO  tests.TeamsTest - Team: Delhi Capitals
+2026-04-30 11:35:36 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-30 11:35:36 INFO  tests.TeamsTest - 
+2026-04-30 11:35:36 INFO  tests.TeamsTest - Validating team: Gujarat Titans
+2026-04-30 11:35:38 INFO  tests.TeamsTest - Team: Gujarat Titans
+2026-04-30 11:35:38 INFO  tests.TeamsTest - Winning years: GT
+2022
+2026-04-30 11:35:38 INFO  tests.TeamsTest - 
+2026-04-30 11:35:38 INFO  tests.TeamsTest - Validating team: Kolkata Knight Riders
+2026-04-30 11:35:40 INFO  tests.TeamsTest - Team: Kolkata Knight Riders
+2026-04-30 11:35:40 INFO  tests.TeamsTest - Winning years: KKR
+2012 | 2014 | 2024
+2026-04-30 11:35:40 INFO  tests.TeamsTest - 
+2026-04-30 11:35:40 INFO  tests.TeamsTest - Validating team: Lucknow Super Giants
+2026-04-30 11:35:42 INFO  tests.TeamsTest - Team: Lucknow Super Giants
+2026-04-30 11:35:42 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-30 11:35:42 INFO  tests.TeamsTest - 
+2026-04-30 11:35:42 INFO  tests.TeamsTest - Validating team: Mumbai Indians
+2026-04-30 11:35:44 INFO  tests.TeamsTest - Team: Mumbai Indians
+2026-04-30 11:35:44 INFO  tests.TeamsTest - Winning years: MI
+2013 | 2015 | 2017 | 2019 | 2020
+2026-04-30 11:35:44 INFO  tests.TeamsTest - 
+2026-04-30 11:35:44 INFO  tests.TeamsTest - Validating team: Punjab Kings
+2026-04-30 11:35:46 INFO  tests.TeamsTest - Team: Punjab Kings
+2026-04-30 11:35:46 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-30 11:35:46 INFO  tests.TeamsTest - 
+2026-04-30 11:35:46 INFO  tests.TeamsTest - Validating team: Rajasthan Royals
+2026-04-30 11:35:48 INFO  tests.TeamsTest - Team: Rajasthan Royals
+2026-04-30 11:35:48 INFO  tests.TeamsTest - Winning years: RR
+2008
+2026-04-30 11:35:48 INFO  tests.TeamsTest - 
+2026-04-30 11:35:48 INFO  tests.TeamsTest - Validating team: Royal Challengers Bengaluru
+2026-04-30 11:35:50 INFO  tests.TeamsTest - Team: Royal Challengers Bengaluru
+2026-04-30 11:35:50 INFO  tests.TeamsTest - Winning years: RCB
+2025
+2026-04-30 11:35:50 INFO  tests.TeamsTest - 
+2026-04-30 11:35:50 INFO  tests.TeamsTest - Validating team: Sunrisers Hyderabad
+2026-04-30 11:35:52 INFO  tests.TeamsTest - Team: Sunrisers Hyderabad
+2026-04-30 11:35:52 INFO  tests.TeamsTest - Winning years: SRH
+2016
+2026-04-30 11:35:52 INFO  tests.TeamsTest - 
+2026-04-30 11:35:52 INFO  tests.TeamsTest - ---------------Test Case Completed---------------
+2026-04-30 11:35:52 INFO  tests.TeamsTest - 
+2026-04-30 11:35:58 INFO  tests.PointsTableTest - ---------------Case 3: Points Table Test---------------
+2026-04-30 11:35:58 INFO  tests.PointsTableTest - Clicking on Points Table
+2026-04-30 11:36:02 INFO  tests.PointsTableTest - Fetching top team details from Points Table
+2026-04-30 11:36:02 INFO  tests.PointsTableTest - Top Team: PBKS
+2026-04-30 11:36:02 INFO  tests.PointsTableTest - Matches Played: 8
+2026-04-30 11:36:02 INFO  tests.PointsTableTest - Points: 13
+2026-04-30 11:36:02 INFO  tests.PointsTableTest - ---------------Test Case Completed---------------
+2026-04-30 11:36:02 INFO  tests.PointsTableTest - 
+2026-04-30 11:36:08 INFO  tests.SearchTest - ---------------Case 4: Search Test---------------
+2026-04-30 11:36:08 INFO  tests.SearchTest - Navigating to News section
+2026-04-30 11:36:11 INFO  tests.SearchTest - Performing search for: Auction 2026
+2026-04-30 11:36:12 INFO  tests.SearchTest - Validating search results for relevance
+2026-04-30 11:36:15 ERROR tests.SearchTest - No relevant article found for: Auction 2026
+2026-04-30 11:36:23 INFO  tests.VenuesTest - ---------------Case 5: Teams Hover Test---------------
+2026-04-30 11:36:27 INFO  tests.VenuesTest - Navigated to Venues page
+2026-04-30 11:36:28 INFO  tests.VenuesTest - Venues data fetched
+2026-04-30 11:36:28 INFO  tests.VenuesTest - Json data for venues fetched
+2026-04-30 11:36:28 INFO  tests.VenuesTest - Venue details are being verified
+2026-04-30 11:36:28 INFO  tests.VenuesTest - All venues validated successfully
+2026-04-30 11:36:28 INFO  tests.VenuesTest - ---------------Test Case Completed---------------
+2026-04-30 11:36:28 INFO  tests.VenuesTest - 
+2026-04-30 11:36:33 INFO  tests.AuctionTest - ---------------Case 6: Auction Page Test---------------
+2026-04-30 11:36:33 INFO  tests.AuctionTest - Opening Auction Page
+2026-04-30 11:36:39 INFO  tests.AuctionTest - Accepting cookies if present
+2026-04-30 11:36:39 INFO  tests.AuctionTest - Waiting for page to load
+2026-04-30 11:36:41 INFO  tests.AuctionTest - Scrolling down to load auction data
+2026-04-30 11:36:43 INFO  tests.AuctionTest - Clicking on Top Buys section
+2026-04-30 11:36:45 INFO  tests.AuctionTest - Fetching top buy player details
+2026-04-30 11:36:45 INFO  tests.AuctionTest - Top Buy Player: Cameron Green
+2026-04-30 11:36:45 INFO  tests.AuctionTest - Price: 252000000
+2026-04-30 11:36:45 INFO  tests.AuctionTest - ---------------Test Case Completed---------------
+2026-04-30 11:36:45 INFO  tests.AuctionTest - 
+2026-04-30 11:36:51 INFO  tests.StatsTest - ---------------Case 7: Stats Page Test---------------
+2026-04-30 11:36:51 INFO  tests.StatsTest - Opening Stats Page
+2026-04-30 11:37:00 INFO  tests.StatsTest - Accepting cookies if present
+2026-04-30 11:37:00 INFO  tests.StatsTest - Scrolling down to load stats
+2026-04-30 11:37:03 INFO  tests.StatsTest - Waiting for data to load
+2026-04-30 11:37:05 INFO  tests.StatsTest - Fetching top player details
+2026-04-30 11:37:05 INFO  tests.StatsTest - Top Player: Abhishek Sharma
+SRH
+2026-04-30 11:37:05 INFO  tests.StatsTest - Runs: 425
+2026-04-30 11:37:05 INFO  tests.StatsTest - ---------------Test Case Completed---------------
+2026-04-30 11:37:05 INFO  tests.StatsTest - 
+2026-04-30 11:37:18 INFO  tests.FooterLinksTest - ---------------Case 1: Footer Links Test---------------
+2026-04-30 11:37:18 INFO  tests.FooterLinksTest - Opening Home Page
+2026-04-30 11:37:18 INFO  tests.FooterLinksTest - Scrolling to footer
+2026-04-30 11:37:18 INFO  tests.FooterLinksTest - Validating TEAM section links
+2026-04-30 11:37:18 INFO  tests.FooterLinksTest - Validating ABOUT section links
+2026-04-30 11:37:20 INFO  tests.FooterLinksTest - Validating GUIDELINES section links
+2026-04-30 11:37:20 INFO  tests.FooterLinksTest - Validating CONTACT section links
+2026-04-30 11:37:20 INFO  tests.FooterLinksTest - Footer validation completed successfully
+2026-04-30 11:37:20 INFO  tests.FooterLinksTest - ---------------Test Case Completed---------------
+2026-04-30 11:37:20 INFO  tests.FooterLinksTest - 
+2026-04-30 11:37:22 INFO  tests.TeamsTest - ---------------Case 2: Teams Hover Test---------------
+2026-04-30 11:37:22 INFO  tests.TeamsTest - Navigating to Teams page
+2026-04-30 11:37:31 INFO  tests.TeamsTest - Total number teams listed: 10
+2026-04-30 11:37:31 INFO  tests.TeamsTest - Validating team: Chennai Super Kings
+2026-04-30 11:37:33 INFO  tests.TeamsTest - Team: Chennai Super Kings
+2026-04-30 11:37:33 INFO  tests.TeamsTest - Winning years: CSK
+2010 | 2011 | 2018 | 2021 | 2023
+2026-04-30 11:37:33 INFO  tests.TeamsTest - 
+2026-04-30 11:37:33 INFO  tests.TeamsTest - Validating team: Delhi Capitals
+2026-04-30 11:37:35 INFO  tests.TeamsTest - Team: Delhi Capitals
+2026-04-30 11:37:35 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-30 11:37:35 INFO  tests.TeamsTest - 
+2026-04-30 11:37:35 INFO  tests.TeamsTest - Validating team: Gujarat Titans
+2026-04-30 11:37:37 INFO  tests.TeamsTest - Team: Gujarat Titans
+2026-04-30 11:37:37 INFO  tests.TeamsTest - Winning years: GT
+2022
+2026-04-30 11:37:37 INFO  tests.TeamsTest - 
+2026-04-30 11:37:37 INFO  tests.TeamsTest - Validating team: Kolkata Knight Riders
+2026-04-30 11:37:39 INFO  tests.TeamsTest - Team: Kolkata Knight Riders
+2026-04-30 11:37:39 INFO  tests.TeamsTest - Winning years: KKR
+2012 | 2014 | 2024
+2026-04-30 11:37:39 INFO  tests.TeamsTest - 
+2026-04-30 11:37:39 INFO  tests.TeamsTest - Validating team: Lucknow Super Giants
+2026-04-30 11:37:41 INFO  tests.TeamsTest - Team: Lucknow Super Giants
+2026-04-30 11:37:41 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-30 11:37:41 INFO  tests.TeamsTest - 
+2026-04-30 11:37:41 INFO  tests.TeamsTest - Validating team: Mumbai Indians
+2026-04-30 11:37:43 INFO  tests.TeamsTest - Team: Mumbai Indians
+2026-04-30 11:37:43 INFO  tests.TeamsTest - Winning years: MI
+2013 | 2015 | 2017 | 2019 | 2020
+2026-04-30 11:37:43 INFO  tests.TeamsTest - 
+2026-04-30 11:37:43 INFO  tests.TeamsTest - Validating team: Punjab Kings
+2026-04-30 11:37:45 INFO  tests.TeamsTest - Team: Punjab Kings
+2026-04-30 11:37:45 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-30 11:37:45 INFO  tests.TeamsTest - 
+2026-04-30 11:37:45 INFO  tests.TeamsTest - Validating team: Rajasthan Royals
+2026-04-30 11:37:47 INFO  tests.TeamsTest - Team: Rajasthan Royals
+2026-04-30 11:37:47 INFO  tests.TeamsTest - Winning years: RR
+2008
+2026-04-30 11:37:47 INFO  tests.TeamsTest - 
+2026-04-30 11:37:47 INFO  tests.TeamsTest - Validating team: Royal Challengers Bengaluru
+2026-04-30 11:37:49 INFO  tests.TeamsTest - Team: Royal Challengers Bengaluru
+2026-04-30 11:37:49 INFO  tests.TeamsTest - Winning years: RCB
+2025
+2026-04-30 11:37:49 INFO  tests.TeamsTest - 
+2026-04-30 11:37:49 INFO  tests.TeamsTest - Validating team: Sunrisers Hyderabad
+2026-04-30 11:37:51 INFO  tests.TeamsTest - Team: Sunrisers Hyderabad
+2026-04-30 11:37:51 INFO  tests.TeamsTest - Winning years: SRH
+2016
+2026-04-30 11:37:51 INFO  tests.TeamsTest - 
+2026-04-30 11:37:51 INFO  tests.TeamsTest - ---------------Test Case Completed---------------
+2026-04-30 11:37:51 INFO  tests.TeamsTest - 
+2026-04-30 11:38:00 INFO  tests.PointsTableTest - ---------------Case 3: Points Table Test---------------
+2026-04-30 11:38:00 INFO  tests.PointsTableTest - Clicking on Points Table
+2026-04-30 11:38:06 INFO  tests.PointsTableTest - Fetching top team details from Points Table
+2026-04-30 11:38:06 INFO  tests.PointsTableTest - Top Team: PBKS
+2026-04-30 11:38:06 INFO  tests.PointsTableTest - Matches Played: 8
+2026-04-30 11:38:06 INFO  tests.PointsTableTest - Points: 13
+2026-04-30 11:38:06 INFO  tests.PointsTableTest - ---------------Test Case Completed---------------
+2026-04-30 11:38:06 INFO  tests.PointsTableTest - 
+2026-04-30 11:38:15 INFO  tests.SearchTest - ---------------Case 4: Search Test---------------
+2026-04-30 11:38:15 INFO  tests.SearchTest - Navigating to News section
+2026-04-30 11:38:25 INFO  tests.SearchTest - Performing search for: Auction 2026
+2026-04-30 11:38:30 INFO  tests.SearchTest - Validating search results for relevance
+2026-04-30 11:38:30 INFO  tests.SearchTest - Clicking on first search result
+2026-04-30 11:38:31 INFO  tests.SearchTest - ---------------Test Case Completed---------------
+2026-04-30 11:38:31 INFO  tests.SearchTest - 
+2026-04-30 11:38:32 INFO  tests.VenuesTest - ---------------Case 5: Teams Hover Test---------------
+2026-04-30 11:38:50 INFO  tests.VenuesTest - Navigated to Venues page
+2026-04-30 11:38:50 INFO  tests.VenuesTest - Venues data fetched
+2026-04-30 11:38:50 INFO  tests.VenuesTest - Json data for venues fetched
+2026-04-30 11:38:50 INFO  tests.VenuesTest - Venue details are being verified
+2026-04-30 11:38:50 INFO  tests.VenuesTest - All venues validated successfully
+2026-04-30 11:38:50 INFO  tests.VenuesTest - ---------------Test Case Completed---------------
+2026-04-30 11:38:50 INFO  tests.VenuesTest - 
+2026-04-30 11:39:00 INFO  tests.AuctionTest - ---------------Case 6: Auction Page Test---------------
+2026-04-30 11:39:00 INFO  tests.AuctionTest - Opening Auction Page
+2026-04-30 11:39:10 INFO  tests.AuctionTest - Accepting cookies if present
+2026-04-30 11:39:11 INFO  tests.AuctionTest - Waiting for page to load
+2026-04-30 11:39:13 INFO  tests.AuctionTest - Scrolling down to load auction data
+2026-04-30 11:39:15 INFO  tests.AuctionTest - Clicking on Top Buys section
+2026-04-30 11:39:16 INFO  tests.AuctionTest - Fetching top buy player details
+2026-04-30 11:39:17 INFO  tests.AuctionTest - Top Buy Player: Cameron Green
+2026-04-30 11:39:17 INFO  tests.AuctionTest - Price: 252000000
+2026-04-30 11:39:17 INFO  tests.AuctionTest - ---------------Test Case Completed---------------
+2026-04-30 11:39:17 INFO  tests.AuctionTest - 
+2026-04-30 11:39:27 INFO  tests.StatsTest - ---------------Case 7: Stats Page Test---------------
+2026-04-30 11:39:27 INFO  tests.StatsTest - Opening Stats Page
+2026-04-30 11:39:37 INFO  tests.StatsTest - Accepting cookies if present
+2026-04-30 11:39:37 INFO  tests.StatsTest - Scrolling down to load stats
+2026-04-30 11:39:40 INFO  tests.StatsTest - Waiting for data to load
+2026-04-30 11:39:42 INFO  tests.StatsTest - Fetching top player details
+2026-04-30 11:39:42 INFO  tests.StatsTest - Top Player: Abhishek Sharma
+SRH
+2026-04-30 11:39:42 INFO  tests.StatsTest - Runs: 425
+2026-04-30 11:39:42 INFO  tests.StatsTest - ---------------Test Case Completed---------------
+2026-04-30 11:39:42 INFO  tests.StatsTest - 
+2026-04-30 11:44:08 INFO  tests.SearchTest - ---------------Case 4: Search Test---------------
+2026-04-30 11:44:08 INFO  tests.SearchTest - Navigating to News section
+2026-04-30 11:44:12 INFO  tests.SearchTest - Performing search for: Auction 2026
+2026-04-30 11:44:17 INFO  tests.SearchTest - Validating search results for relevance
+2026-04-30 11:44:17 INFO  tests.SearchTest - Clicking on first search result
+2026-04-30 11:44:17 INFO  tests.SearchTest - ---------------Test Case Completed---------------
+2026-04-30 11:44:17 INFO  tests.SearchTest - 
+2026-04-30 11:44:44 INFO  tests.FooterLinksTest - ---------------Case 1: Footer Links Test---------------
+2026-04-30 11:44:44 INFO  tests.FooterLinksTest - Opening Home Page
+2026-04-30 11:44:44 INFO  tests.FooterLinksTest - Scrolling to footer
+2026-04-30 11:44:44 INFO  tests.FooterLinksTest - Validating TEAM section links
+2026-04-30 11:44:45 INFO  tests.FooterLinksTest - Validating ABOUT section links
+2026-04-30 11:44:45 INFO  tests.FooterLinksTest - Validating GUIDELINES section links
+2026-04-30 11:44:45 INFO  tests.FooterLinksTest - Validating CONTACT section links
+2026-04-30 11:44:45 INFO  tests.FooterLinksTest - Footer validation completed successfully
+2026-04-30 11:44:45 INFO  tests.FooterLinksTest - ---------------Test Case Completed---------------
+2026-04-30 11:44:45 INFO  tests.FooterLinksTest - 
+2026-04-30 11:44:54 INFO  tests.TeamsTest - ---------------Case 2: Teams Hover Test---------------
+2026-04-30 11:44:54 INFO  tests.TeamsTest - Navigating to Teams page
+2026-04-30 11:44:59 INFO  tests.TeamsTest - Total number teams listed: 10
+2026-04-30 11:44:59 INFO  tests.TeamsTest - Validating team: Chennai Super Kings
+2026-04-30 11:45:01 INFO  tests.TeamsTest - Team: Chennai Super Kings
+2026-04-30 11:45:01 INFO  tests.TeamsTest - Winning years: CSK
+2010 | 2011 | 2018 | 2021 | 2023
+2026-04-30 11:45:01 INFO  tests.TeamsTest - 
+2026-04-30 11:45:01 INFO  tests.TeamsTest - Validating team: Delhi Capitals
+2026-04-30 11:45:03 INFO  tests.TeamsTest - Team: Delhi Capitals
+2026-04-30 11:45:03 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-30 11:45:03 INFO  tests.TeamsTest - 
+2026-04-30 11:45:03 INFO  tests.TeamsTest - Validating team: Gujarat Titans
+2026-04-30 11:45:05 INFO  tests.TeamsTest - Team: Gujarat Titans
+2026-04-30 11:45:05 INFO  tests.TeamsTest - Winning years: GT
+2022
+2026-04-30 11:45:05 INFO  tests.TeamsTest - 
+2026-04-30 11:45:05 INFO  tests.TeamsTest - Validating team: Kolkata Knight Riders
+2026-04-30 11:45:07 INFO  tests.TeamsTest - Team: Kolkata Knight Riders
+2026-04-30 11:45:07 INFO  tests.TeamsTest - Winning years: KKR
+2012 | 2014 | 2024
+2026-04-30 11:45:07 INFO  tests.TeamsTest - 
+2026-04-30 11:45:07 INFO  tests.TeamsTest - Validating team: Lucknow Super Giants
+2026-04-30 11:45:09 INFO  tests.TeamsTest - Team: Lucknow Super Giants
+2026-04-30 11:45:09 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-30 11:45:09 INFO  tests.TeamsTest - 
+2026-04-30 11:45:09 INFO  tests.TeamsTest - Validating team: Mumbai Indians
+2026-04-30 11:45:11 INFO  tests.TeamsTest - Team: Mumbai Indians
+2026-04-30 11:45:11 INFO  tests.TeamsTest - Winning years: MI
+2013 | 2015 | 2017 | 2019 | 2020
+2026-04-30 11:45:11 INFO  tests.TeamsTest - 
+2026-04-30 11:45:11 INFO  tests.TeamsTest - Validating team: Punjab Kings
+2026-04-30 11:45:13 INFO  tests.TeamsTest - Team: Punjab Kings
+2026-04-30 11:45:13 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-30 11:45:13 INFO  tests.TeamsTest - 
+2026-04-30 11:45:13 INFO  tests.TeamsTest - Validating team: Rajasthan Royals
+2026-04-30 11:45:15 INFO  tests.TeamsTest - Team: Rajasthan Royals
+2026-04-30 11:45:15 INFO  tests.TeamsTest - Winning years: RR
+2008
+2026-04-30 11:45:15 INFO  tests.TeamsTest - 
+2026-04-30 11:45:15 INFO  tests.TeamsTest - Validating team: Royal Challengers Bengaluru
+2026-04-30 11:45:17 INFO  tests.TeamsTest - Team: Royal Challengers Bengaluru
+2026-04-30 11:45:17 INFO  tests.TeamsTest - Winning years: RCB
+2025
+2026-04-30 11:45:17 INFO  tests.TeamsTest - 
+2026-04-30 11:45:17 INFO  tests.TeamsTest - Validating team: Sunrisers Hyderabad
+2026-04-30 11:45:19 INFO  tests.TeamsTest - Team: Sunrisers Hyderabad
+2026-04-30 11:45:19 INFO  tests.TeamsTest - Winning years: SRH
+2016
+2026-04-30 11:45:19 INFO  tests.TeamsTest - 
+2026-04-30 11:45:19 INFO  tests.TeamsTest - ---------------Test Case Completed---------------
+2026-04-30 11:45:19 INFO  tests.TeamsTest - 
+2026-04-30 11:45:24 INFO  tests.PointsTableTest - ---------------Case 3: Points Table Test---------------
+2026-04-30 11:45:24 INFO  tests.PointsTableTest - Clicking on Points Table
+2026-04-30 11:45:29 INFO  tests.PointsTableTest - Fetching top team details from Points Table
+2026-04-30 11:45:29 INFO  tests.PointsTableTest - Top Team: PBKS
+2026-04-30 11:45:29 INFO  tests.PointsTableTest - Matches Played: 8
+2026-04-30 11:45:29 INFO  tests.PointsTableTest - Points: 13
+2026-04-30 11:45:29 INFO  tests.PointsTableTest - ---------------Test Case Completed---------------
+2026-04-30 11:45:29 INFO  tests.PointsTableTest - 
+2026-04-30 11:45:34 INFO  tests.SearchTest - ---------------Case 4: Search Test---------------
+2026-04-30 11:45:35 INFO  tests.SearchTest - Navigating to News section
+2026-04-30 11:45:38 INFO  tests.SearchTest - Performing search for: Auction 2026
+2026-04-30 11:45:42 INFO  tests.SearchTest - Validating search results for relevance
+2026-04-30 11:45:42 INFO  tests.SearchTest - Clicking on first search result
+2026-04-30 11:45:42 INFO  tests.SearchTest - ---------------Test Case Completed---------------
+2026-04-30 11:45:42 INFO  tests.SearchTest - 
+2026-04-30 11:45:48 INFO  tests.VenuesTest - ---------------Case 5: Teams Hover Test---------------
+2026-04-30 11:45:53 INFO  tests.VenuesTest - Navigated to Venues page
+2026-04-30 11:45:53 INFO  tests.VenuesTest - Venues data fetched
+2026-04-30 11:45:53 INFO  tests.VenuesTest - Json data for venues fetched
+2026-04-30 11:45:53 INFO  tests.VenuesTest - Venue details are being verified
+2026-04-30 11:45:53 INFO  tests.VenuesTest - All venues validated successfully
+2026-04-30 11:45:53 INFO  tests.VenuesTest - ---------------Test Case Completed---------------
+2026-04-30 11:45:53 INFO  tests.VenuesTest - 
+2026-04-30 11:46:00 INFO  tests.AuctionTest - ---------------Case 6: Auction Page Test---------------
+2026-04-30 11:46:00 INFO  tests.AuctionTest - Opening Auction Page
+2026-04-30 11:46:09 INFO  tests.AuctionTest - Accepting cookies if present
+2026-04-30 11:46:09 INFO  tests.AuctionTest - Waiting for page to load
+2026-04-30 11:46:11 INFO  tests.AuctionTest - Scrolling down to load auction data
+2026-04-30 11:46:14 INFO  tests.AuctionTest - Clicking on Top Buys section
+2026-04-30 11:46:15 INFO  tests.AuctionTest - Fetching top buy player details
+2026-04-30 11:46:16 INFO  tests.AuctionTest - Top Buy Player: Cameron Green
+2026-04-30 11:46:16 INFO  tests.AuctionTest - Price: 252000000
+2026-04-30 11:46:16 INFO  tests.AuctionTest - ---------------Test Case Completed---------------
+2026-04-30 11:46:16 INFO  tests.AuctionTest - 
+2026-04-30 11:46:25 INFO  tests.StatsTest - ---------------Case 7: Stats Page Test---------------
+2026-04-30 11:46:25 INFO  tests.StatsTest - Opening Stats Page
+2026-04-30 11:46:41 INFO  tests.StatsTest - Accepting cookies if present
+2026-04-30 11:46:42 INFO  tests.StatsTest - Scrolling down to load stats
+2026-04-30 11:46:44 INFO  tests.StatsTest - Waiting for data to load
+2026-04-30 11:46:46 INFO  tests.StatsTest - Fetching top player details
+2026-04-30 11:46:46 INFO  tests.StatsTest - Top Player: Abhishek Sharma
+SRH
+2026-04-30 11:46:46 INFO  tests.StatsTest - Runs: 425
+2026-04-30 11:46:46 INFO  tests.StatsTest - ---------------Test Case Completed---------------
+2026-04-30 11:46:46 INFO  tests.StatsTest - 
+2026-04-30 11:47:19 INFO  tests.FooterLinksTest - ---------------Case 1: Footer Links Test---------------
+2026-04-30 11:47:19 INFO  tests.FooterLinksTest - Opening Home Page
+2026-04-30 11:47:19 INFO  tests.FooterLinksTest - Scrolling to footer
+2026-04-30 11:47:19 INFO  tests.FooterLinksTest - Validating TEAM section links
+2026-04-30 11:47:19 INFO  tests.FooterLinksTest - Validating ABOUT section links
+2026-04-30 11:47:19 INFO  tests.FooterLinksTest - Validating GUIDELINES section links
+2026-04-30 11:47:19 INFO  tests.FooterLinksTest - Validating CONTACT section links
+2026-04-30 11:47:19 INFO  tests.FooterLinksTest - Footer validation completed successfully
+2026-04-30 11:47:19 INFO  tests.FooterLinksTest - ---------------Test Case Completed---------------
+2026-04-30 11:47:19 INFO  tests.FooterLinksTest - 
+2026-04-30 11:47:26 INFO  tests.TeamsTest - ---------------Case 2: Teams Hover Test---------------
+2026-04-30 11:47:26 INFO  tests.TeamsTest - Navigating to Teams page
+2026-04-30 11:47:32 INFO  tests.TeamsTest - Total number teams listed: 10
+2026-04-30 11:47:32 INFO  tests.TeamsTest - Validating team: Chennai Super Kings
+2026-04-30 11:47:34 INFO  tests.TeamsTest - Team: Chennai Super Kings
+2026-04-30 11:47:34 INFO  tests.TeamsTest - Winning years: CSK
+2010 | 2011 | 2018 | 2021 | 2023
+2026-04-30 11:47:34 INFO  tests.TeamsTest - 
+2026-04-30 11:47:34 INFO  tests.TeamsTest - Validating team: Delhi Capitals
+2026-04-30 11:47:35 INFO  tests.TeamsTest - Team: Delhi Capitals
+2026-04-30 11:47:35 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-30 11:47:35 INFO  tests.TeamsTest - 
+2026-04-30 11:47:35 INFO  tests.TeamsTest - Validating team: Gujarat Titans
+2026-04-30 11:47:37 INFO  tests.TeamsTest - Team: Gujarat Titans
+2026-04-30 11:47:37 INFO  tests.TeamsTest - Winning years: GT
+2022
+2026-04-30 11:47:37 INFO  tests.TeamsTest - 
+2026-04-30 11:47:37 INFO  tests.TeamsTest - Validating team: Kolkata Knight Riders
+2026-04-30 11:47:39 INFO  tests.TeamsTest - Team: Kolkata Knight Riders
+2026-04-30 11:47:39 INFO  tests.TeamsTest - Winning years: KKR
+2012 | 2014 | 2024
+2026-04-30 11:47:39 INFO  tests.TeamsTest - 
+2026-04-30 11:47:39 INFO  tests.TeamsTest - Validating team: Lucknow Super Giants
+2026-04-30 11:47:41 INFO  tests.TeamsTest - Team: Lucknow Super Giants
+2026-04-30 11:47:41 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-30 11:47:41 INFO  tests.TeamsTest - 
+2026-04-30 11:47:41 INFO  tests.TeamsTest - Validating team: Mumbai Indians
+2026-04-30 11:47:43 INFO  tests.TeamsTest - Team: Mumbai Indians
+2026-04-30 11:47:43 INFO  tests.TeamsTest - Winning years: MI
+2013 | 2015 | 2017 | 2019 | 2020
+2026-04-30 11:47:43 INFO  tests.TeamsTest - 
+2026-04-30 11:47:43 INFO  tests.TeamsTest - Validating team: Punjab Kings
+2026-04-30 11:47:45 INFO  tests.TeamsTest - Team: Punjab Kings
+2026-04-30 11:47:45 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-30 11:47:45 INFO  tests.TeamsTest - 
+2026-04-30 11:47:45 INFO  tests.TeamsTest - Validating team: Rajasthan Royals
+2026-04-30 11:47:47 INFO  tests.TeamsTest - Team: Rajasthan Royals
+2026-04-30 11:47:47 INFO  tests.TeamsTest - Winning years: RR
+2008
+2026-04-30 11:47:47 INFO  tests.TeamsTest - 
+2026-04-30 11:47:47 INFO  tests.TeamsTest - Validating team: Royal Challengers Bengaluru
+2026-04-30 11:47:49 INFO  tests.TeamsTest - Team: Royal Challengers Bengaluru
+2026-04-30 11:47:49 INFO  tests.TeamsTest - Winning years: RCB
+2025
+2026-04-30 11:47:49 INFO  tests.TeamsTest - 
+2026-04-30 11:47:49 INFO  tests.TeamsTest - Validating team: Sunrisers Hyderabad
+2026-04-30 11:47:51 INFO  tests.TeamsTest - Team: Sunrisers Hyderabad
+2026-04-30 11:47:51 INFO  tests.TeamsTest - Winning years: SRH
+2016
+2026-04-30 11:47:51 INFO  tests.TeamsTest - 
+2026-04-30 11:47:51 INFO  tests.TeamsTest - ---------------Test Case Completed---------------
+2026-04-30 11:47:51 INFO  tests.TeamsTest - 
+2026-04-30 11:47:57 INFO  tests.PointsTableTest - ---------------Case 3: Points Table Test---------------
+2026-04-30 11:47:57 INFO  tests.PointsTableTest - Clicking on Points Table
+2026-04-30 11:48:04 INFO  tests.PointsTableTest - Fetching top team details from Points Table
+2026-04-30 11:48:04 INFO  tests.PointsTableTest - Top Team: PBKS
+2026-04-30 11:48:04 INFO  tests.PointsTableTest - Matches Played: 8
+2026-04-30 11:48:04 INFO  tests.PointsTableTest - Points: 13
+2026-04-30 11:48:04 INFO  tests.PointsTableTest - ---------------Test Case Completed---------------
+2026-04-30 11:48:04 INFO  tests.PointsTableTest - 
+2026-04-30 11:48:12 INFO  tests.SearchTest - ---------------Case 4: Search Test---------------
+2026-04-30 11:48:12 INFO  tests.SearchTest - Navigating to News section
+2026-04-30 11:48:15 INFO  tests.SearchTest - Performing search for: Auction 2026
+2026-04-30 11:48:19 INFO  tests.SearchTest - Validating search results for relevance
+2026-04-30 11:48:19 INFO  tests.SearchTest - Clicking on first search result
+2026-04-30 11:48:19 INFO  tests.SearchTest - ---------------Test Case Completed---------------
+2026-04-30 11:48:19 INFO  tests.SearchTest - 
+2026-04-30 11:48:28 INFO  tests.VenuesTest - ---------------Case 5: Teams Hover Test---------------
+2026-04-30 11:48:32 INFO  tests.VenuesTest - Navigated to Venues page
+2026-04-30 11:48:33 INFO  tests.VenuesTest - Venues data fetched
+2026-04-30 11:48:33 INFO  tests.VenuesTest - Json data for venues fetched
+2026-04-30 11:48:33 INFO  tests.VenuesTest - Venue details are being verified
+2026-04-30 11:48:33 INFO  tests.VenuesTest - All venues validated successfully
+2026-04-30 11:48:33 INFO  tests.VenuesTest - ---------------Test Case Completed---------------
+2026-04-30 11:48:33 INFO  tests.VenuesTest - 
+2026-04-30 11:48:40 INFO  tests.AuctionTest - ---------------Case 6: Auction Page Test---------------
+2026-04-30 11:48:40 INFO  tests.AuctionTest - Opening Auction Page
+2026-04-30 11:48:46 INFO  tests.AuctionTest - Accepting cookies if present
+2026-04-30 11:48:46 INFO  tests.AuctionTest - Waiting for page to load
+2026-04-30 11:48:48 INFO  tests.AuctionTest - Scrolling down to load auction data
+2026-04-30 11:48:51 INFO  tests.AuctionTest - Clicking on Top Buys section
+2026-04-30 11:48:52 INFO  tests.AuctionTest - Fetching top buy player details
+2026-04-30 11:48:53 INFO  tests.AuctionTest - Top Buy Player: Cameron Green
+2026-04-30 11:48:53 INFO  tests.AuctionTest - Price: 252000000
+2026-04-30 11:48:53 INFO  tests.AuctionTest - ---------------Test Case Completed---------------
+2026-04-30 11:48:53 INFO  tests.AuctionTest - 
+2026-04-30 11:49:01 INFO  tests.StatsTest - ---------------Case 7: Stats Page Test---------------
+2026-04-30 11:49:01 INFO  tests.StatsTest - Opening Stats Page
+2026-04-30 11:49:14 INFO  tests.StatsTest - Accepting cookies if present
+2026-04-30 11:49:14 INFO  tests.StatsTest - Scrolling down to load stats
+2026-04-30 11:49:16 INFO  tests.StatsTest - Waiting for data to load
+2026-04-30 11:49:18 INFO  tests.StatsTest - Fetching top player details
+2026-04-30 11:49:19 INFO  tests.StatsTest - Top Player: Abhishek Sharma
+SRH
+2026-04-30 11:49:19 INFO  tests.StatsTest - Runs: 425
+2026-04-30 11:49:19 INFO  tests.StatsTest - ---------------Test Case Completed---------------
+2026-04-30 11:49:19 INFO  tests.StatsTest - 
+2026-04-30 11:49:29 INFO  tests.FooterLinksTest - ---------------Case 1: Footer Links Test---------------
+2026-04-30 11:49:29 INFO  tests.FooterLinksTest - Opening Home Page
+2026-04-30 11:49:29 INFO  tests.FooterLinksTest - Scrolling to footer
+2026-04-30 11:49:29 INFO  tests.FooterLinksTest - Validating TEAM section links
+2026-04-30 11:49:29 INFO  tests.FooterLinksTest - Validating ABOUT section links
+2026-04-30 11:49:29 INFO  tests.FooterLinksTest - Validating GUIDELINES section links
+2026-04-30 11:49:29 INFO  tests.FooterLinksTest - Validating CONTACT section links
+2026-04-30 11:49:29 INFO  tests.FooterLinksTest - Footer validation completed successfully
+2026-04-30 11:49:29 INFO  tests.FooterLinksTest - ---------------Test Case Completed---------------
+2026-04-30 11:49:29 INFO  tests.FooterLinksTest - 
+2026-04-30 11:49:36 INFO  tests.TeamsTest - ---------------Case 2: Teams Hover Test---------------
+2026-04-30 11:49:36 INFO  tests.TeamsTest - Navigating to Teams page
+2026-04-30 11:49:41 INFO  tests.TeamsTest - Total number teams listed: 10
+2026-04-30 11:49:41 INFO  tests.TeamsTest - Validating team: Chennai Super Kings
+2026-04-30 11:49:43 INFO  tests.TeamsTest - Team: Chennai Super Kings
+2026-04-30 11:49:43 INFO  tests.TeamsTest - Winning years: CSK
+2010 | 2011 | 2018 | 2021 | 2023
+2026-04-30 11:49:43 INFO  tests.TeamsTest - 
+2026-04-30 11:49:43 INFO  tests.TeamsTest - Validating team: Delhi Capitals
+2026-04-30 11:49:45 INFO  tests.TeamsTest - Team: Delhi Capitals
+2026-04-30 11:49:45 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-30 11:49:45 INFO  tests.TeamsTest - 
+2026-04-30 11:49:45 INFO  tests.TeamsTest - Validating team: Gujarat Titans
+2026-04-30 11:49:47 INFO  tests.TeamsTest - Team: Gujarat Titans
+2026-04-30 11:49:47 INFO  tests.TeamsTest - Winning years: GT
+2022
+2026-04-30 11:49:47 INFO  tests.TeamsTest - 
+2026-04-30 11:49:47 INFO  tests.TeamsTest - Validating team: Kolkata Knight Riders
+2026-04-30 11:49:48 INFO  tests.TeamsTest - Team: Kolkata Knight Riders
+2026-04-30 11:49:48 INFO  tests.TeamsTest - Winning years: KKR
+2012 | 2014 | 2024
+2026-04-30 11:49:48 INFO  tests.TeamsTest - 
+2026-04-30 11:49:48 INFO  tests.TeamsTest - Validating team: Lucknow Super Giants
+2026-04-30 11:49:50 INFO  tests.TeamsTest - Team: Lucknow Super Giants
+2026-04-30 11:49:50 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-30 11:49:50 INFO  tests.TeamsTest - 
+2026-04-30 11:49:50 INFO  tests.TeamsTest - Validating team: Mumbai Indians
+2026-04-30 11:49:52 INFO  tests.TeamsTest - Team: Mumbai Indians
+2026-04-30 11:49:52 INFO  tests.TeamsTest - Winning years: MI
+2013 | 2015 | 2017 | 2019 | 2020
+2026-04-30 11:49:52 INFO  tests.TeamsTest - 
+2026-04-30 11:49:52 INFO  tests.TeamsTest - Validating team: Punjab Kings
+2026-04-30 11:49:54 INFO  tests.TeamsTest - Team: Punjab Kings
+2026-04-30 11:49:54 INFO  tests.TeamsTest - Winning years: No trophies
+2026-04-30 11:49:54 INFO  tests.TeamsTest - 
+2026-04-30 11:49:54 INFO  tests.TeamsTest - Validating team: Rajasthan Royals
+2026-04-30 11:49:56 INFO  tests.TeamsTest - Team: Rajasthan Royals
+2026-04-30 11:49:56 INFO  tests.TeamsTest - Winning years: RR
+2008
+2026-04-30 11:49:56 INFO  tests.TeamsTest - 
+2026-04-30 11:49:56 INFO  tests.TeamsTest - Validating team: Royal Challengers Bengaluru
+2026-04-30 11:49:58 INFO  tests.TeamsTest - Team: Royal Challengers Bengaluru
+2026-04-30 11:49:58 INFO  tests.TeamsTest - Winning years: RCB
+2025
+2026-04-30 11:49:58 INFO  tests.TeamsTest - 
+2026-04-30 11:49:58 INFO  tests.TeamsTest - Validating team: Sunrisers Hyderabad
+2026-04-30 11:50:00 INFO  tests.TeamsTest - Team: Sunrisers Hyderabad
+2026-04-30 11:50:00 INFO  tests.TeamsTest - Winning years: SRH
+2016
+2026-04-30 11:50:00 INFO  tests.TeamsTest - 
+2026-04-30 11:50:00 INFO  tests.TeamsTest - ---------------Test Case Completed---------------
+2026-04-30 11:50:00 INFO  tests.TeamsTest - 
+2026-04-30 11:50:12 INFO  tests.PointsTableTest - ---------------Case 3: Points Table Test---------------
+2026-04-30 11:50:12 INFO  tests.PointsTableTest - Clicking on Points Table
+2026-04-30 11:50:17 INFO  tests.PointsTableTest - Fetching top team details from Points Table
+2026-04-30 11:50:18 INFO  tests.PointsTableTest - Top Team: PBKS
+2026-04-30 11:50:18 INFO  tests.PointsTableTest - Matches Played: 8
+2026-04-30 11:50:18 INFO  tests.PointsTableTest - Points: 13
+2026-04-30 11:50:18 INFO  tests.PointsTableTest - ---------------Test Case Completed---------------
+2026-04-30 11:50:18 INFO  tests.PointsTableTest - 
+2026-04-30 11:50:29 INFO  tests.SearchTest - ---------------Case 4: Search Test---------------
+2026-04-30 11:50:29 INFO  tests.SearchTest - Navigating to News section
+2026-04-30 11:50:34 INFO  tests.SearchTest - Performing search for: Auction 2026
+2026-04-30 11:50:35 INFO  tests.SearchTest - Validating search results for relevance
+2026-04-30 11:50:38 INFO  tests.SearchTest - Clicking on first search result
+2026-04-30 11:50:39 INFO  tests.SearchTest - ---------------Test Case Completed---------------
+2026-04-30 11:50:39 INFO  tests.SearchTest - 
+2026-04-30 11:50:46 INFO  tests.VenuesTest - ---------------Case 5: Teams Hover Test---------------
+2026-04-30 11:50:51 INFO  tests.VenuesTest - Navigated to Venues page
+2026-04-30 11:50:51 INFO  tests.VenuesTest - Venues data fetched
+2026-04-30 11:50:51 INFO  tests.VenuesTest - Json data for venues fetched
+2026-04-30 11:50:51 INFO  tests.VenuesTest - Venue details are being verified
+2026-04-30 11:50:51 INFO  tests.VenuesTest - All venues validated successfully
+2026-04-30 11:50:51 INFO  tests.VenuesTest - ---------------Test Case Completed---------------
+2026-04-30 11:50:51 INFO  tests.VenuesTest - 
+2026-04-30 11:51:01 INFO  tests.AuctionTest - ---------------Case 6: Auction Page Test---------------
+2026-04-30 11:51:01 INFO  tests.AuctionTest - Opening Auction Page
+2026-04-30 11:51:28 INFO  tests.AuctionTest - Accepting cookies if present
+2026-04-30 11:51:28 INFO  tests.AuctionTest - Waiting for page to load
+2026-04-30 11:51:30 INFO  tests.AuctionTest - Scrolling down to load auction data
+2026-04-30 11:51:33 INFO  tests.AuctionTest - Clicking on Top Buys section
+2026-04-30 11:51:34 INFO  tests.AuctionTest - Fetching top buy player details
+2026-04-30 11:51:35 INFO  tests.AuctionTest - Top Buy Player: Cameron Green
+2026-04-30 11:51:35 INFO  tests.AuctionTest - Price: 252000000
+2026-04-30 11:51:35 INFO  tests.AuctionTest - ---------------Test Case Completed---------------
+2026-04-30 11:51:35 INFO  tests.AuctionTest - 
+2026-04-30 11:51:47 INFO  tests.StatsTest - ---------------Case 7: Stats Page Test---------------
+2026-04-30 11:51:47 INFO  tests.StatsTest - Opening Stats Page
+2026-04-30 11:51:59 INFO  tests.StatsTest - Accepting cookies if present
+2026-04-30 11:52:00 INFO  tests.StatsTest - Scrolling down to load stats
+2026-04-30 11:52:02 INFO  tests.StatsTest - Waiting for data to load
+2026-04-30 11:52:04 INFO  tests.StatsTest - Fetching top player details
+2026-04-30 11:52:04 INFO  tests.StatsTest - Top Player: Abhishek Sharma
+SRH
+2026-04-30 11:52:04 INFO  tests.StatsTest - Runs: 425
+2026-04-30 11:52:04 INFO  tests.StatsTest - ---------------Test Case Completed---------------
+2026-04-30 11:52:04 INFO  tests.StatsTest - 
